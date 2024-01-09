@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strong Painting</title>
+
+    <!-- font awesome cdnjs link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- magnific-popup css cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">   
+</head>
+
+<body>
+    <!-- header section starts -->
+    <header>
+        <a href="/Index.html" class="logo"><i class="fa-solid fa-brush"></i>Strong Painting</a>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+            </ul>
+        </nav>
+        <div class="fas fa-bars"></div>
+    </header>
+    <!-- header section ends -->
+
+    <!-- home section starts -->
+    <section class="home" id="home">
+        <div class="content">
+            <h1>Elevate Your Spaces with Strong Painting</h1>
+            <p>At Strong Painting, we're dedicated to transforming your spaces, whether it's in your home or a new construction project. Our commitment to top-quality painting and unwavering attention to detail sets us apart for all your painting needs.</p>
+            <a href="#contacts"><button>contact us</button></a>
+        </div>
+
+        <div class="box-container">
+            <div class="box">
+                <i class="fa-solid fa-house-chimney"></i>
+                <h3>Interior Painting</h3>
+                <p>We provide all types of interior painting services such as rooms, offices, hallways, bathrooms, kitchens, among others.</p>
+            </div>
+    
+            <div class="box">
+                <i class="fa-solid fa-paint-roller"></i>
+                <h3>Exterior Painting</h3>
+                <p>We provide exterior painting services capable of withstanding different climatic environments.</p>
+            </div>
+            <div class="box">
+                <i class="fa-solid fa-building"></i>
+                <h3>Commercial Painting</h3>
+                <p>We provide commercial painting services capable of restoring paint to office buildings, schools, apartments, among others.</p>
+            </div>
+        </div>
+    </section>
+    <!-- home section ends -->
+
+    <!-- about section starts -->
+    <section class="about" id="about">
+        <h1 class="heading">about us</h1>
+        <h3 class="title">Get to know us and join us on our way</h3>
+
+        <div class="row">
+            <div class="content">
+                <h3>Our Services</h3>
+                <h3><br>Residential Painting</br></h3>
+                <p>From a single room to an entire house, we specialize in rejuvenating your interior and exterior spaces.</p>
+                <h3>New Construction Painting</h3>
+                <p>Building a new home or commercial space? We'll bring your fresh construction to life with our expert painting services.</p>
+            </div>
+            
+            <div class="image">
+                <img src="images/about-us-img-without-bg.png" alt="">                     
+            </div>
+        </div>       
+    </section>
+    <!-- about section ends -->
+
+    <!-- our divisions section starts -->
+    <section class="our-division" id="our-division">
+        <h1 class="heading">Why Choose Strong Painting?</h1>
+        <h3 class="title">Come join us and let's start this journey together.</h3>
+
+        <div class="division-box-container">
+            <div class="division-box">
+                <i class="fa-solid fa-chart-line"></i>
+                <h3>Experience</h3>
+                <p>With years of experience under our belt, we've honed our techniques to deliver outstanding results.</p>
+            </div>
+            <div class="division-box">
+                <i class="fa-solid fa-crown"></i>
+                <h3>Top Notch Quality</h3>
+                <p>We use only the finest materials and cutting-edge painting methods.</p>
+            </div>
+            <div class="division-box">   
+                <i class="fa-solid fa-users"></i>
+                <h3>Professional Team</h3>   
+                <p>Our team comprises highly trained painters who are dedicated to achieving excellence.</p>
+            </div>
+            <div class=division-box>
+                <i class="fa-solid fa-handshake-angle"></i>
+                <h3>Environmental Responsibility</h3>
+                <p>We care about the environment and prioritize eco-friendly paint options whenever possible.</p>
+            </div>
+        </div>
+    </section>
+    <!-- our divisions section ends -->
+
+    <!-- Achievements section starts -->
+    <section class="achievements" id="achievements">
+        <h1 class="heading">Achievements</h1>
+        <h3 class="title">Success is the sum of the small efforts you make every day.</h3>
+
+        <div class="box-container">
+            <div class=box>
+                <i class="fas fa-medal"></i>
+                <h3><span data-count="3">0</span>+</h3>
+                <p>Years of excellence</p>
+            </div>
+            <div class="box">
+                <i class="fa-solid fa-brush"></i>
+                <h3><span data-count="80">0</span>+</h3>
+                <p>Projects</p>
+            </div>
+            <div class="box">
+                <i class="fa-solid fa-heart"></i>
+                <h3><span data-count="120">0</span>+</h3>
+                <p>Happy Customers</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/numberCounter.js"></script>
+    <!-- Achievements section ends -->
+
+    <!-- projects section starts -->
+    <section class="projects" id="projects">
+        <h1 class="heading">Projects</h1>
+        <h3 class="title">Striving to provide the best quality in our services from the first project.</h3>
+
+        <ul class="controls">
+                <li class="buttons active" id="first-option-projects" data-filter="all">All</li>
+                <li class="buttons" data-filter="interior-painting">Interior Painting</li>
+                <li class="buttons" data-filter="exterior-painting">Exterior Painting</li>
+                <li class="buttons" data-filter="commercial-painting">Commericial Painting</li>
+        </ul>
+    
+        <div class="image-container">
+            <a href="images/projects examples/interior-painting-img-01.jpg" class="image interior-painting">
+                <img src="images/projects examples/interior-painting-img-01.jpg" alt="">
+            </a>
+            <a href="images/projects examples/interior-painting-img-02.jpg" class="image interior-painting">
+                <img src="images/projects examples/interior-painting-img-02.jpg" alt="">
+            </a>
+            <a href="images/projects examples/exterior-painting-img-01.jpg" class="image exterior-painting">
+                <img src="images/projects examples/exterior-painting-img-01.jpg" alt="">
+            </a>
+            <a href="images/projects examples/exterior-painting-img-02.jpg" class="image exterior-painting">
+                <img src="images/projects examples/exterior-painting-img-02.jpg" alt="">
+            </a>
+            <a href="images/projects examples/interior-painting-img-03.jpg" class="image interior-painting">
+                <img src="images/projects examples/interior-painting-img-03.jpg" alt="">
+            </a>
+            <a href="images/projects examples/exterior-painting-img-03.jpg" class="image exterior-painting">
+                <img src="images/projects examples/exterior-painting-img-03.jpg" alt="">
+            </a>
+            <a href="images/projects examples/exterior-painting-img-04.jpg" class="image exterior-painting">
+                <img src="images/projects examples/exterior-painting-img-04.jpg" alt="">
+            </a>
+            <a href="images/projects examples/exterior-painting-img-05.jpg" class="image exterior-painting">
+                <img src="images/projects examples/exterior-painting-img-05.jpg" alt="">
+            </a>
+        </div>
+
+        <!-- jquery cdn link -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+        <!-- magnific popup js cdn link -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+
+        <!-- custom js file link -->
+        <script src="js/projectsTransitions.js"></script>
+
+        <!-- magnific popup -->
+        <script>
+            $('.projects').magnificPopup({
+                delegate:'a',
+                type:'image',
+                projects:{
+                    enabled:true
+                }
+             });
+        </script>
+
+    </section> 
+    <!-- projects section ends -->
+
+    <!--  commentaries section starts -->
+    <section class="commentaries" id="commentaries">
+        <h1 class="heading">Feedbacks</h1>  
+        <h3 class="title">Every comment is important because it helps us grow and improve every day.</h3>
+
+        <div id="disqus_thread"></div>
+            <script>
+                /**
+                *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+                /*
+                var disqus_config = function () {
+                this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+                this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                };
+                */
+                (function() { // DON'T EDIT BELOW THIS LINE
+                var d = document, s = d.createElement('script');
+                s.src = 'https://strong-painting.disqus.com/embed.js';
+                s.setAttribute('data-timestamp', +new Date());
+                (d.head || d.body).appendChild(s);
+                })();
+            </script>
+            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </section>   
+    <!--  commentaries section ends -->
+
+    <!-- contact section starts -->
+    <section class="contacts" id="contacts">
+        <h1 class="heading">Ready to Transform Your Spaces?</h1>  
+        <h3 class="title">Let Strong Painting turn your vision into reality. Contact us today for a complimentary consultation and a no-obligation quote. Together, we'll create spaces you'll adore.</h3>
+
+        <div class="row">
+            <div class="image"> 
+                <img src="images/contact-us-img-without-bg.png" alt=""> 
+            </div>
+
+            <div class="form-container">
+                <form action="https://formsubmit.co/officialstrongpainting@outlook.com" method="POST">
+                    <input type="text" name="name" placeholder="name" id="name" required>
+                    <input type="text" name="_subject" placeholder="subject" id="subject" required>
+                    <input type="email" name="email "placeholder="email address" id="email" required>
+                    <textarea name="message" id="" cols="30" rows="10" placeholder="message" id="message" required></textarea>
+                    <input type="submit" value="submit" id="submit-btn">
+                   
+                    <input type="hidden" name="_next" value="">  <!-- redireccionarse para evitar mensaje de la API -->
+                    <input type="hidden" name="_captcha" value="false"> 
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- contact section ends -->
+
+    <!-- popup section starts -->
+    <section>
+        <div class="popup center">
+            <div class="icon">
+                <i class="fa-solid fa-circle-check"></i>
+            </div>
+            <div class="title">
+                <h3>Success!</h3>
+            </div>
+            <div class="description">
+                <h4>Email sent successfully.</h4>
+            </div>
+            <div class="dismiss-btn">
+                <button id="dismiss-popup-btn">Dismiss</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/popup.js"></script>
+    <!-- popup section ends -->
+
+    <!-- footer section starts -->
+    <section class="footer">
+        <footer class="footer-distributed">
+            <div class=footer-left>
+                <h3>Strong<span> Painting</span></h3>
+                <p class="footer-links">
+                    <a href="#home">Home</a>
+                    |
+                    <a href="#about">About</a>
+                    |
+                    <a href="#achievements">Achievements</a>
+                    |
+                    <a href="#projects">Projects</a>
+                    |
+                    <a href="#contacts">Contacts</a>
+                </p>
+                <p class="footer-strongPainting">Copyright &copy; 2024 <span><strong>Strong Painting </strong></span>All rights reserved</p>
+            </div>
+
+            <div class="footer-center">
+                <div>
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p><span>Location</span>North Carolina</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-phone"></i>
+                    <p><span>Telephone Number</span>+1 (704) 605-4319</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-envelope"></i>
+                    <p><span>Email Address</span>officialstrongpainting@outlook.com</p>
+                </div>
+            </div>
+
+            <div class=footer-right>
+                <p class="footer-strongPainting-about">
+                <span>About Us</span>
+                At Strong Painting, we're dedicated to transforming your spaces, whether it's in your home or a new construction project. 
+                Our commitment to top-quality painting and unwavering attention to detail sets us apart for all your painting needs.
+                </p>
+                <div class="footer-icons">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+            </div>
+        </footer>
+    </section>
+    <!-- footer section ends-->
+
+    <!-- jqery cdnjs link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- custom js file link -->
+    <script src="js/main.js"></script>
+</body>
+</html>
