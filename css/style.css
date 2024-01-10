@@ -791,11 +791,6 @@ footer{
         flex-flow: column-reverse;
     }
 
-    /*.about .row .image img{
-        height: 50vh;
-        width: 90vw;
-    }*/
-
     .about .row .content{
         padding: 0 2.5rem;
     }
