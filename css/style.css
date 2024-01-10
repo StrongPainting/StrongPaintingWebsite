@@ -146,7 +146,7 @@ header .fa-times {
 
 .home .content p{
     font-size: 2rem;
-    color: #eee;
+    color: hsl(0, 0%, 93%);
     padding: 1rem 25rem;
 }
 
@@ -237,12 +237,8 @@ header .fa-times {
 }
 
 .about .row .image img{
-    height: 50vh;
-    width: 60vh;
-    position: relative;
-    margin: auto;
-    justify-content: center;
-    align-items: center;
+    height: 60vh;
+    width: 30vw;   
 }
 
 .about .row .content{
@@ -422,12 +418,8 @@ header .fa-times {
 }
 
 .contacts .row .image img{
-    position: relative;
-    margin: auto;
-    height: 400px;
-    width: 400px;
-    justify-content: center;
-    align-items: center;
+    height: 60vh;
+    width: 30vw;
 }
 
 .contacts .row .form-container{
@@ -737,6 +729,8 @@ footer{
     }
 }
 
+/* @media dimensions */
+
 /* media queries */
 
 @media (max-width:768px){
@@ -825,5 +819,58 @@ footer{
 
     .footer-distributed .footer-center i{
         margin-left: 0;
+    }
+}
+
+/* Mobile devices */
+@media (min-width:320px) and (max-width:480px) {
+    .about .row .image img{
+        height: 60vh;
+        width: 80vw; 
+        background: red;  
+    }
+    .contacts .row .image img{
+        height: 60vh;
+        width: 80vw;
+        background: red;
+    }
+}
+/* iPads, Tablets */
+@media (min-width:481px) and (max-width:768px) {
+    .about .row .image img{
+        height: 60vh;
+        width: 60vw;
+        background: yellow;  
+    }
+    .contacts .row .image img{
+        height: 60vh;
+        width: 60vw;
+        background: yellow;
+    }
+}
+/* Small screens, laptops */
+@media (min-width:769px) and (max-width:1024px) {
+    .about .row .image img{
+        height: 60vh;
+        width: 50vw; 
+        background: green;  
+    }
+    .contacts .row .image img{
+        height: 60vh;
+        width: 50vw;
+        background: green; 
+    }
+}
+
+@media (min-width:1025px) and (max-width:1200px) {
+    .about .row .image img{
+        height: 60vh;
+        width: 40vw; 
+        background: blue;  
+    }
+    .contacts .row .image img{
+        height: 60vh;
+        width: 40vw;
+        background: blue; 
     }
 }
