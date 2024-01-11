@@ -26,7 +26,7 @@ window.addEventListener("scroll", () => {
                     // set the counter text to the count
                     box.innerText = count;
                     // repeat this every 10 miliseconds
-                    setTimeout(updateCount, 20); // count speed
+                    setTimeout(updateCount, 50); // count speed
                     
                 } // and when the target is reached
                 else {
