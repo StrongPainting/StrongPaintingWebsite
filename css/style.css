@@ -803,6 +803,7 @@ footer{
 @media (min-width: 768px) and (max-width: 968px) {
     .footer-distributed .footer-center p {
         display:block;
+        padding-left: 2rem;
     }
 }
 
