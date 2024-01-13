@@ -800,6 +800,12 @@ footer{
     }
 }
 
+@media (min-width: 768px) and (max-width: 968px) {
+    .footer-distributed .footer-center p {
+        display:block;
+    }
+}
+
 @media (max-width:768px){
     html{
         font-size: 55%;
