@@ -413,7 +413,6 @@ header .fa-times {
 }
 
 /* areas we service section starts */
-
 .areas-we-services {
     background: #f9f9f9;
 }
@@ -777,7 +776,7 @@ footer{
     }
 }
 
-/* images dimensions*/
+/* images dimensions */
 @media (min-width:0px) and (max-width:299px) {
     .about .row .image img{
         height: 200px;
@@ -800,6 +799,7 @@ footer{
     }
 }
 
+/* footer text location */
 @media (min-width: 768px) and (max-width: 968px) {
     .footer-distributed .footer-center p {
         display:block;
