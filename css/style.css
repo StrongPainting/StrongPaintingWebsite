@@ -807,6 +807,15 @@ footer{
     }
 }
 
+@media (min-width: 0px) and (max-width: 388px) {
+    .footer-distributed .footer-center p {
+        display:block;
+    }
+    .footer-distributed .footer-center i {
+        margin: 10px 0px;
+    }
+}
+
 @media (max-width:768px){
     html{
         font-size: 55%;
