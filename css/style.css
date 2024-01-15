@@ -605,7 +605,7 @@ header .fa-times {
 /*footer*/
 
 footer{
-    position: fixed;
+    position: sticky;
     bottom: 0;
 }
 
